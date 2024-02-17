@@ -6,6 +6,7 @@
     "@sveltejs/kit": "^2.0.0",
     "@sveltejs/vite-plugin-svelte": "^3.0.0",
     "@types/eslint": "8.56.0",
+    "@types/node": "^20.11.19",
     "@typescript-eslint/eslint-plugin": "^6.0.0",
     "@typescript-eslint/parser": "^6.0.0",
     "autoprefixer": "^10.4.16",
@@ -34,5 +35,8 @@
     "lint": "prettier --check . && eslint .",
     "format": "prettier --write ."
   },
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "@floating-ui/dom": "^1.6.3"
+  }
 }
